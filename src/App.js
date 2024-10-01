@@ -1,10 +1,10 @@
 import React from 'react';
-import KanbanBoard from './components/KanbanBoard/KanbanBoard';
-
+import AuthPage from './components/Auth/AuthPage';
+import './App.css';
 function App() {
   return (
     <div className="App">
-      <KanbanBoard />
+      <AuthPage />
     </div>
   );
 }
