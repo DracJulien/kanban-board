@@ -1,11 +1,17 @@
+/* -------- Colors -------- */
+$background-color: hsl(0, 0%, 100%);
+$title-color: hsl(0, 0%, 27%);
+$border-color:hsl(0, 0%, 87%);
+$box-shadow: hsla(0, 0%, 0%, 0.125);
+
 .login-wrapper {
     width: 50%;
     height: 50%;
     display: flex;
-    background-color: #fff;
+    background-color: $background-color;
     border-radius: 8px;
     position: relative;
-    box-shadow: 0 2px 36px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 2px 36px $box-shadow;
     transition: all 200ms;
 }
 
@@ -41,8 +47,6 @@
     height: 100%;
 }
 
-
-
 .headerLogin{
     display: flex;
     width: 90%;
@@ -51,11 +55,11 @@
     // margin-bottom: 5%;
 }
 
-.header {
+.header{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    color: #444444;
+    color: $title-color;
     font-size: 25px;
     font-weight: bold;
     padding: 0;
@@ -63,7 +67,6 @@
     outline: 0 !important;
     font-family: 'Open Sans', sans-serif;
 }
-
 
 .FormLogin{
     display: flex;
@@ -73,7 +76,6 @@
     flex-direction: column;
     align-content: center;
     justify-content: space-around;
-
 }
 
 #formulaire {
@@ -100,8 +102,8 @@
     margin-top: 5%;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(222, 222, 222);
-    border: 1px solid rgb(222, 222, 222);
+    border: 1px solid $border-color;
+    border: 1px solid $border-color;
     border-radius: 4px;
     transition: border 300ms;
 }
@@ -118,24 +120,23 @@
     // height: 42px !important;
     padding: 12px 8px;
     background: none !important;
-    border: 1px solid rgb(222, 222, 222);
+    border: 1px solid $border-color;
     border-radius: 4px;
     transition: border 300ms;
     outline: none;
 }
 
 .title {
-        color: #444444;
+    color: $title-color;
     font-size: 25px;
     font-weight: bold;
 }
 
 .zone-bouton {
-        display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .connectionText {
     // transform: translateX(14px);
@@ -143,7 +144,6 @@
     height: 100%;
     // line-height: 35px;
 }
-
 
 .connectionIcon {
     opacity: 0;
