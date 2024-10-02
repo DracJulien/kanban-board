@@ -29,14 +29,12 @@ export default function AuthPage() {
                 <div className="struct-login-form-column">
                     <input name="code" placeholder="Identifiant ou email" id="txtCode" data-bind="value: CODE"/>
 
-                    <span id="label-code" className="label-login-form">Identifiant ou email</span>
                 </div>
                 <div className="struct-login-form-column">
                     <div className="struct-showhide-pwd" id="divPass">
                         <input name="pass" type="password" placeholder="Mot de passe" id="txtPass" className="myInput myInputPwd" data-bind="value: PASS"/>
                         <i id="passShowHide" className="myEye fas fa-eye"></i>
                     </div>
-                    <span id="label-pass" className="label-login-form">Mot de passe</span>
                 </div>
                 <div className="identification-demande-mdp-zonebuttons">
                     <div className="identification-demande-mdp-backlink">
