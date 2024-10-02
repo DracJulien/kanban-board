@@ -1,0 +1,168 @@
+.login-wrapper {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 2px 36px rgba(0, 0, 0, 0.125);
+    transition: all 200ms;
+}
+
+.login-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-left-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginRight {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.headerLogin{
+    display: flex;
+    width: 90%;
+    height: 40%;
+    margin-left: 10%;
+    // margin-bottom: 5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: #444444;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    outline: 0 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.FormLogin{
+    display: flex;
+    width: 80%;
+    margin : 5% 10% 5% 10%;
+    height: 90%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.inputLoginMail{
+   display: flex;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputLoginPassword{
+   display: flex;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(222, 222, 222);
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    transition: border 300ms;
+}
+
+.inputLoginPassword .input{
+    border:none;
+    height: 50%;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    // height: 42px !important;
+    padding: 12px 8px;
+    background: none !important;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    transition: border 300ms;
+    outline: none;
+}
+
+.title {
+        color: #444444;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.zone-bouton {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.connectionText {
+    // transform: translateX(14px);
+    transition: all 300ms;
+    height: 100%;
+    // line-height: 35px;
+}
+
+
+.connectionIcon {
+    opacity: 0;
+    transition: all 300ms;
+}
+
+button {
+    min-width: 130px;
+}
+
+.loginIcon{
+    height: 100%;
+    line-height: 35px;
+    margin-right: 0; 
+    margin-left: 7px;
+    visibility: hidden;
+}
+
+.loginIcon:hover {
+    visibility: visible;
+}
+
