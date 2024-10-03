@@ -1,21 +1,31 @@
+/* Colors*/
+$column-color:hsl(0, 0%, 100%);
+$shadow-color:hsla(0, 0%, 0%, 0.1);
+$header-color:hsl(0, 0%, 93%);
+$background-color:hsl(0, 0%, 94%);
+$hover-color:hsla(0, 0%, 0%, 0.1);
+$red-color: #f02f2f;
+$green-color: #1a9436;
+$white-color: #fff;
+
 /* Styles globaux pour le tableau Kanban */
 .kanban-board {
     display: flex;
     justify-content: space-between;
     margin: 20px;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: $background-color;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px $shadow-color;
   }
   
   /* Style pour chaque colonne du tableau */
   .kanban-column {
     width: 24%;
-    background-color: #ffffff;
+    background-color: $column-color;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px $shadow-color;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -28,7 +38,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     padding: 10px 0;
-    background-color: #eee;
+    background-color: $background-color;
     border-radius: 5px;
   }
   
@@ -45,10 +55,10 @@
   
   /* Style pour chaque tâche */
   .kanban-task {
-    background-color: #ffffff;
+    background-color: $column-color;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px $shadow-color;
     cursor: grab;
     display: flex;
     justify-content: center;
@@ -59,7 +69,7 @@
   }
   
   .kanban-task:hover {
-    background-color: #f4f4f4;
+    background-color: $background-color;
   }
   
   /* Input pour ajouter une nouvelle tâche */
@@ -76,8 +86,8 @@
   .add-task-button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #28a745;
-    color: white;
+    background-color: $green-color;
+    color: $white-color;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -85,7 +95,7 @@
   }
   
   .add-task-button:hover {
-    background-color: #218838;
+    background-color: $green-color;
   }
   
   /* Style pour la colonne "To Do" */
@@ -105,13 +115,13 @@
   
   /* Style pour la colonne "Trash" */
   .trash-column .kanban-column-header {
-    background-color: #ff4444;
+    background-color: $red-color;
   }
   
   /* Bouton pour vider la corbeille */
   .empty-trash-button {
-    background-color: #ff4444;
-    color: white;
+    background-color: $red-color;
+    color: $white-color;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -120,6 +130,6 @@
   }
   
   .empty-trash-button:hover {
-    background-color: #e63939;
+    background-color: hsl(0, 69%, 45%);
   }
   

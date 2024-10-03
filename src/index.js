@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css'; // Optionnel, si tu veux ajouter des styles globaux
+import './styles.scss'; // Optionnel, si tu veux ajouter des styles globaux
 import App from './App'; // Import du composant principal App
 import reportWebVitals from './reportWebVitals'; // Outil pour mesurer les performances (facultatif)
 import { createRoot } from 'react-dom/client';

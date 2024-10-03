@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
-import './KanbanBoard.css'; // Vous pouvez ajouter des styles ici
+import './KanbanBoard.scss'; // Vous pouvez ajouter des styles ici
 
 // État initial des colonnes
 const initialData = {
